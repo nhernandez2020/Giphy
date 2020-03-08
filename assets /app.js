@@ -1,5 +1,5 @@
 var animallist = ["cat", "dog", "lion", "bat", "tiger", "bear"]
-function createbutton() {
+function createbutton () {
     console.log("Create buttons from array")
     $("#buttoncontainer").empty()
     for (let i = 0; i < animallist.length; i++) {
